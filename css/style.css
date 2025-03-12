@@ -1,0 +1,40 @@
+/*font family*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*common css start*/
+:root{
+	--pop : "Poppins", sans-serif;
+	--rob : "Roboto", sans-serif;
+	--bl : #000000;
+	--or : #FD511A;
+	--gr : #21B573;
+}
+body{
+	font-family: var(--pop);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--bl);
+}
+/*header start*/
+header{
+	background-color: #ddfadd;
+
+}
+.cnav{}
+.logo{}
+.nbtn{}
+.menu{}
+.menu ul li a{
+	color: var(--bl)!important;
+	padding: 0 20px !important;
+	
+}
+.menu ul li a:hover{
+	color: var(--or)!important;
+}
+.btn_cm{}
+.btn_sn{}
+
+
+
